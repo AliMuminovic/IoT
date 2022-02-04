@@ -1,0 +1,77 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.sve{
+    padding: 0;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 10px;
+    height: 80%;
+    width: 40%;
+    background-color: linen;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.naslov{
+    width: 40%;
+    height: 10%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.blinds{
+    height: 80%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    border-radius: 10px;
+    position: absolute;
+    height: 55%;
+    width: 25%;
+    
+   
+}
+
+.btns{
+   height: 10%;
+   width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
